@@ -1,7 +1,8 @@
 :root {
+	--heading-color: #ad8b73;
 	--branding-color: #ceab93;
-
 	--secondary-color: #f7e5d0;
+	--para-color: #a4907c;
 	--heading-font-family: "Playfair Display", serif;
 	--default-font-family: "Poppins", sans-serif;
 }
@@ -18,7 +19,7 @@ h4,
 h5,
 h6 {
 	font-family: var(--heading-font-family);
-	color: var(--primary-color);
+	color: var(--heading-color);
 	font-weight: bold;
 }
 
@@ -39,14 +40,19 @@ p {
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 30px;
+	color: var(--para-color);
 }
 
 li {
 	list-style-type: none;
 }
 
+a {
+	text-decoration: none;
+}
+
 .main-hero {
-	background: var(--secondary-color);
+	background: #f1dec9;
 	text-align: center;
 	padding: 80px 20px;
 }
@@ -82,7 +88,6 @@ li {
 .content h3 {
 	font-size: 24px;
 	line-height: 1.5;
-
 	font-family: var(--default-font-family);
 }
 
@@ -94,22 +99,17 @@ li {
 	margin: 30px;
 }
 
-.btn-branding {
-	background: var(--branding-color);
-	border-radius: 4px;
-	color: white;
+.btn {
+	border: solid 2px #ceab93;
+	border-radius: 30px;
+	color: var(--branding-color);
 	font-size: 18px;
-	line-height: 27px;
-	padding: 15px 30px;
+	padding: 10px 20px;
 }
 
-.btn-branding-outline {
-	color: var(--branding-color);
-	border: 1px solid var(--branding-color);
-	border-radius: 4px;
-	font-size: 18px;
-	line-height: 27px;
-	padding: 15px 30px;
+.btn:hover {
+	color: antiquewhite;
+	background-color: var(--branding-color);
 }
 
 .project-desciption {
@@ -122,6 +122,12 @@ li {
 
 .skills-icon {
 	max-width: 50%;
+	margin-left: 25%;
+}
+
+.about-me {
+	position: relative;
+	left: 40%;
 }
 nav {
 	padding: 20px 0;
