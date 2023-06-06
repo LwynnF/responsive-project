@@ -43,64 +43,66 @@
 	</head>
 	<body>
 		<!-- Header/navbar -->
-		<div class="container">
-			<nav class="d-flex justify-content-between">
-				<a
-					href="/"
-					title="Homepage"
-				>
-					<img
-						class="logo d-none d-md-block"
-						src="images/logo.png"
-						alt=""
-					/>
-					<img
-						class="logo d-block d-md-none"
-						src="images/logo-small.jpeg"
-						alt=""
-					/>
-				</a>
-				<ul>
-					<li>
-						<a
-							href="/"
-							title="Homepage"
-							>Home</a
-						>
-					</li>
-					<li class="active">
-						<a
-							href="/about.html"
-							title="About Louise"
-							>About</a
-						>
-					</li>
-					<li>
-						<a
-							href="/projects.html"
-							title="Louise's Work"
-							>Projects</a
-						>
-					</li>
-					<li>
-						<a
-							href="/contact.html"
-							title="Contact Louise"
-							>Contact</a
-						>
-					</li>
-				</ul>
-			</nav>
-		</div>
+		    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            alt="Louise Fong Logo"
+            class="img-fluid logo"
+            width="100px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item px-4">
+              <a
+                class="nav-link "
+                aria-current="page"
+                href="/"
+                title="Homepage"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link active" href="/about.html" title="My Story"
+                >MY STORY</a
+              >
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="/work.html" title="My work">MY WORK</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="/contact.html" title="Contact Louise"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
 
 		<div class="hero container-fluid">
-
-		
-			<h1 class="text-center my-story">MY STORY</h1>
-		
+			<img
+				class="img-fluid"
+				src="images/story-hero.png"
+				alt="My Story Logo"
+			/>
 		</div>
 
-		<div class="about-me container">
+		<div class="about-me container-fluid">
 			<div class="row">
 				<!-- Then -->
 				<div class="col left-bg">
@@ -159,21 +161,29 @@
 		</div>
 
 		<!-- About Me Images -->
-		<div class="about-me-images mt-5">
-			<div class=" img-fluid d-flex justify-content-around">
-				<img
-					class="img-fluid"
-					src="images/circus-lane.JPG"
-					alt="Sea View"
-				/>
-				<img
-					src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/920/original/sunset.png?1684080425"
-					alt="Arch View"
-				/>
-				<img
-					src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/918/original/houses.png?1684080415"
-					alt="Houses"
-				/>
+		<div class="container-fluid mx-5">
+			<div class="row">
+				<div class="col-sm-4">
+					<img
+						class="img-fluid"
+						src="images/circus-lane.JPG"
+						alt="Circus Lane"
+					/>
+				</div>
+				<div class="col-sm-4">
+					<img
+						class="img-fluid"
+						src="images/about-img.png"
+						alt="Sea View"
+					/>
+				</div>
+				<div class="col-sm-4">
+					<img
+						class="img-fluid"
+						src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/920/original/sunset.png?1684080425"
+						alt="Sea View"
+					/>
+				</div>
 			</div>
 		</div>
 

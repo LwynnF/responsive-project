@@ -47,69 +47,63 @@
 	</head>
 	<body>
 		<!-- Header/navbar -->
-		<div class="container">
-			<nav class="d-flex justify-content-between">
-				<a
-					href="/"
-					title="Homepage"
-				>
-					<img
-						class="logo d-none d-md-block"
-						src="images/logo.png"
-						alt=""
-					/>
-					<img
-						class="logo d-block d-md-none"
-						src="images/logo-small.jpeg"
-						alt=""
-					/>
-				</a>
-				<ul>
-					<li class="active">
-						<a
-							href="/"
-							title="Homepage"
-							>Home</a
-						>
-					</li>
-					<li>
-						<a
-							href="/about.html"
-							title="About Louise"
-							>About</a
-						>
-					</li>
-					<li>
-						<a
-							href="/projects.html"
-							title="Louise's Work"
-							>Projects</a
-						>
-					</li>
-					<li>
-						<a
-							href="/contact.html"
-							title="Contact Louise"
-							>Contact</a
-						>
-					</li>
-				</ul>
-			</nav>
-		</div>
+		    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            alt="Louise Fong Logo"
+            class="img-fluid logo"
+            width="100px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item px-4">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                title="Homepage"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="/about.html" title="My Story"
+                >MY STORY</a
+              >
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="/work.html" title="My work">MY WORK</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="/contact.html" title="Contact Louise"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
 		<!-- Hero -->
-		<div class="main-hero">
-			<p>👋 Hello, I am</p>
-			<h1>Louise Fong</h1>
-			<h2 class="mb-5">Front-end developer based in the United Kingdom</h2>
-			<div>
-				<a
-					href="/contact.html"
-					class="btn btn-branding"
-					title="Contact Louise"
-					>Contact me</a
-				>
-			</div>
+		<div class="hero container-fluid">
+			<img
+				class="img-fluid"
+				src="images/lf-hero.png"
+				alt="Louise Fong Logo"
+			/>
 		</div>
 
 		<!-- About and skills icons -->
@@ -119,8 +113,9 @@
 					<h3 class="mt-5 text-center mb-5">&lt; Hello World &gt;</h3>
 					<p>
 						Thank you for checking out my portfolio. My name is Louise and I am
-						a front-end developer based and full-time tea addict based in Scotland.
-						Aside from coding, I love to cook, read murder mysteries and travel.
+						a front-end developer based and full-time tea addict based in
+						Scotland. Aside from coding, I love to cook, read murder mysteries
+						and travel.
 						<br />
 						<br />
 						Since starting my coding journey and joining SheCodes in January
@@ -229,7 +224,7 @@
 				<div class="col-6">
 					<img
 						class="img-fluid left-rounded"
-						src="images/louise.png"
+						src=""
 						alt=""
 					/>
 				</div>
@@ -240,7 +235,7 @@
 		<div class="container-fluid about-intro mx-5">
 			<div class="row">
 				<!-- Photo -->
-				<div class="col-6">
+				<div class="col-6 mt-5">
 					<img
 						class="img-fluid right-rounded"
 						src="images/matcha.png"
@@ -298,7 +293,7 @@
 		</div>
 
 		<!-- Footer -->
-		<hr />
+		<hr class="mt-5"/>
 		<footer class="container text-center">
 			<a
 				href="mailto:lfong96@hotmail.co.uk"
