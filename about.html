@@ -43,56 +43,73 @@
 	</head>
 	<body>
 		<!-- Header/navbar -->
-		    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/" title="Homepage">
-          <img
-            src="images/logo.png"
-            alt="Louise Fong Logo"
-            class="img-fluid logo"
-            width="100px"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item px-4">
-              <a
-                class="nav-link "
-                aria-current="page"
-                href="/"
-                title="Homepage"
-                >HOME</a
-              >
-            </li>
-            <li class="nav-item px-4">
-              <a class="nav-link active" href="/about.html" title="My Story"
-                >MY STORY</a
-              >
-            </li>
-            <li class="nav-item px-4">
-              <a class="nav-link" href="/work.html" title="My work">MY WORK</a>
-            </li>
-            <li class="nav-item px-4">
-              <a class="nav-link" href="/contact.html" title="Contact Louise"
-                >CONTACT</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a
+					class="navbar-brand"
+					href="/"
+					title="Homepage"
+				>
+					<img
+						src="images/logo.png"
+						alt="Louise Fong Logo"
+						class="img-fluid logo"
+						width="100px"
+					/>
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="collapse navbar-collapse"
+					id="navbarNav"
+				>
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item px-4">
+							<a
+								class="nav-link"
+								aria-current="page"
+								href="/"
+								title="Homepage"
+								>HOME</a
+							>
+						</li>
+						<li class="nav-item px-4">
+							<a
+								class="nav-link active"
+								href="/about.html"
+								title="My Story"
+								>MY STORY</a
+							>
+						</li>
+						<li class="nav-item px-4">
+							<a
+								class="nav-link"
+								href="/work.html"
+								title="My work"
+								>MY WORK</a
+							>
+						</li>
+						<li class="nav-item px-4">
+							<a
+								class="nav-link"
+								href="/contact.html"
+								title="Contact Louise"
+								>CONTACT</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
 		<div class="hero container-fluid">
 			<img
@@ -102,17 +119,17 @@
 			/>
 		</div>
 
-		<div class="about-me container-fluid">
+		<div class="container-fluid about-me">
 			<div class="row">
 				<!-- Then -->
-				<div class="col left-bg">
+				<div class="col-sm-6 mt-5">
 					<h1>Then.</h1>
 					<p>
 						Prior to my coding and SheCodes journey, I was working in the
 						finance sector and after three years, I knew it was time for a new
 						challenge. I have always had an interest in tech and loved problem
 						solving from a young age, whether this be in the form of sudokus or
-						playing Professor Layton on my Nintendo DS. <br />
+						playing Professor Layton on my Nintendo DS. <br /><br />
 						One day on Instagram, I started to notice ads for SheCodes and I
 						decided to join the SheCodes Express live coding class. It amazed me
 						how quickly I could see the result of the code and that coding is
@@ -121,68 +138,54 @@
 					</p>
 				</div>
 
-				<!-- Now -->
-				<div class="row">
-					<div class="col">
-						<h1 class="text-end">Now.</h1>
-						<p class="text-end">
-							After completing the SheCodes Basics course, I felt that I had
-							finally found a new passion and loved the satisfaction from
-							solving coding errors. As of right now, I am currently
-							participating in the SheCodes Pro workshop - creating this
-							portfolio as part of my SheCodes Responsive final project.
-							<br />
-							I find that coding is best learnt through practice and ny
-							participating in the SheCodes challenges I am able to put my newly
-							acquired skills and knowledge into practice and have fun along the
-							way.
-						</p>
-					</div>
-				</div>
-
-				<!-- Next -->
-				<div class="row">
-					<div class="col">
-						<h1>Next.</h1>
-						<p>
-							Upon completion of the workshops and having upskilled - learning
-							CSS, HTML, Javascript, React and more technologies, I hope I am
-							equipped with the skills to break into the tech industry.
-							<br />
-							I chose to transition from finance to tech as I love the freedom
-							for creativity, the rewarding satisfaction from cracking coding
-							issues but most importantly I wanted to pursue a new career where
-							typically women are underpresented and to help bridge the gender
-							gap in tech.
-						</p>
-					</div>
+				<div class="col-sm-6">
+					<img
+						class="img-fluid left-rounded"
+						src="images/about1.JPG"
+						alt="Louise Fong"
+					/>
 				</div>
 			</div>
-		</div>
 
-		<!-- About Me Images -->
-		<div class="container-fluid mx-5">
 			<div class="row">
-				<div class="col-sm-4">
+				<!-- Now -->
+				<div class="col-sm-6 mt-5">
 					<img
-						class="img-fluid"
-						src="images/circus-lane.JPG"
-						alt="Circus Lane"
+						class="img-fluid right-rounded"
+						src="images/about2.png"
+						alt="Louise Fong"
 					/>
 				</div>
-				<div class="col-sm-4">
-					<img
-						class="img-fluid"
-						src="images/about-img.png"
-						alt="Sea View"
-					/>
+				<div class="col-sm-6 mt-5">
+					<h1>Now.</h1>
+					<p>
+						After completing the SheCodes Basics course, I felt that I had
+						finally found a new passion and loved the satisfaction from solving
+						coding errors. As of right now, I am currently participating in the
+						SheCodes Pro workshop - creating this portfolio as part of my
+						SheCodes Responsive final project. <br /><br />
+						I find that coding is best learnt through practice and by
+						participating in the SheCodes challenges I am able to put my newly
+						acquired skills and knowledge into practice and have fun along the
+						way.
+					</p>
 				</div>
-				<div class="col-sm-4">
-					<img
-						class="img-fluid"
-						src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/920/original/sunset.png?1684080425"
-						alt="Sea View"
-					/>
+			</div>
+
+			<div class="row">
+				<!-- Next -->
+				<div class="col-sm-6 mt-5">
+					<h1>Next.</h1>
+					<p>
+						Upon completion of the workshops and having upskilled - learning
+						CSS, HTML, Javascript, React and more technologies, I hope I am
+						equipped with the skills to break into the tech industry.
+						<br /><br />
+						I chose to transition from finance to tech as I love the freedom for
+						creativity, the rewarding satisfaction from cracking coding issues
+						but most importantly I wanted to pursue a new career where typically
+						women are underpresented and to help bridge the gender gap in tech.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -190,12 +193,7 @@
 		<!-- Footer -->
 		<hr />
 		<footer class="container text-center">
-			<a
-				href="mailto:lfong96@hotmail.co.uk"
-				class="email-link"
-				title="Email Louise"
-				>Reach out and let's code together!</a
-			>
+			<h4 class="text-center">&lt Connect Code Create &gt</h4>
 			<div class="social-links d-flex justify-content-center mt-3">
 				<a
 					href="https://www.github.com/LwynnF"

@@ -52,6 +52,18 @@ a {
 	text-decoration: none;
 }
 
+.navbar-toggler-icon,
+.navbar-toggler,
+.navbar-light {
+	color: var(--branding-color) !important;
+}
+
+
+.navbar-light .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ceab93' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
 .logo {
 	position: relative;
 	left: 30px;
@@ -101,8 +113,6 @@ a {
 .project-desciption {
 	padding: 120px 60px;
 }
-
-
 
 .skills-icon {
 	max-width: 50%;
@@ -171,21 +181,18 @@ a {
 	background: var(--background-color) !important;
 }
 
-.nav-link{
+.nav-link {
 	color: #825c41 !important;
 }
 
 nav a:hover,
-nav a.active  {
+nav a.active {
 	color: var(--branding-color) !important;
-	
 }
-
 
 nav a {
 	text-decoration: none;
-	color: var(--heading-color
-	);
+	color: var(--heading-color);
 	transition: all 100ms ease-in-out;
 }
 
@@ -233,9 +240,12 @@ footer .social-links a:hover {
 	padding: 100px 25px 50px 25px;
 }
 .contact-links {
-
-	color: var(--branding-color);
+	color: var(--branding-color) !important;
 	margin-bottom: 30px;
+}
+
+hr {
+	color: var(--branding-color);
 }
 
 /* Media queries */
