@@ -25,8 +25,7 @@ h6 {
 }
 
 h1 {
-	font-size: 96px;
-	line-height: 1.5;
+	font-size: 60px;
 }
 
 h2 {
@@ -34,7 +33,7 @@ h2 {
 }
 
 h3 {
-	font-size: 48px;
+	font-size: 40px;
 }
 
 p {
@@ -58,15 +57,14 @@ a {
 	color: var(--branding-color) !important;
 }
 
-
 .navbar-light .navbar-toggler-icon {
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ceab93' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-
 .logo {
 	position: relative;
 	left: 30px;
+	max-width: 80px;
 }
 
 .content-container {
@@ -114,14 +112,12 @@ a {
 	padding: 120px 60px;
 }
 
-.skills-icon {
-	max-width: 50%;
-	margin-left: 25%;
-}
-
-.about-me-btn {
-	position: relative;
-	left: 40%;
+.hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
 }
 
 .col-sm-4 {
@@ -183,6 +179,11 @@ a {
 
 .nav-link {
 	color: #825c41 !important;
+}
+
+.arch {
+	border-top-left-radius: 500px;
+	border-top-right-radius: 500px;
 }
 
 nav a:hover,
@@ -280,5 +281,21 @@ hr {
 
 	nav a {
 		font-size: 14px;
+	}
+}
+
+/* Responsiveness for phone */
+
+@media (max-width: 576px) {
+	h1 {
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 32px;
+	}
+
+	h3 {
+		font-size: 25px;
 	}
 }
