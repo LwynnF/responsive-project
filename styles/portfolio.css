@@ -298,4 +298,8 @@ hr {
 	h3 {
 		font-size: 25px;
 	}
+
+	.certs {
+		margin: 15px;
+	}
 }
