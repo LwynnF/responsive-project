@@ -164,13 +164,12 @@ a {
 .right-rounded {
 	border-top-right-radius: 450px;
 	position: relative;
-	left: -50px;
+	
 }
 
 .left-rounded {
 	border-top-left-radius: 450px;
 	position: relative;
-	right: -50px;
 }
 
 .navbar {
@@ -251,7 +250,7 @@ hr {
 
 /* Media queries */
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
 	h1 {
 		font-size: 44px;
 		line-height: 1.5;
@@ -274,10 +273,6 @@ hr {
 		padding: 0;
 	}
 
-	.project-desciption {
-		padding: 0;
-		text-align: center;
-	}
 
 	nav a {
 		font-size: 14px;
@@ -299,7 +294,34 @@ hr {
 		font-size: 25px;
 	}
 
-	.certs {
-		margin: 15px;
+
+
+	
+}
+
+/* Responsiveness for standard ipad and smaller < 768px */
+
+@media (min-width: 576px) and (max-width: 768px) {
+	.overlay-text a {
+		font-size: 13px;
+		white-space:normal;
+	}
+
+	.project-title {
+		font-size: 18px;
+	}
+
+	.project-info {
+		font-size: 14px;
+	}
+}
+
+
+/* Responsiveness for M - L screens */
+
+@media (min-width: 768px) {
+	.overlay-text a {
+		font-size: 16px;
+		white-space: normal;
 	}
 }
