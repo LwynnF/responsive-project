@@ -164,7 +164,6 @@ a {
 .right-rounded {
 	border-top-right-radius: 450px;
 	position: relative;
-	
 }
 
 .left-rounded {
@@ -248,8 +247,6 @@ hr {
 	color: var(--branding-color);
 }
 
-
-
 /* Responsiveness for phone */
 
 @media (max-width: 576px) {
@@ -265,11 +262,13 @@ hr {
 		font-size: 25px;
 	}
 
-	.overlay-text a {
-		font-size: 16px;
+	.lf-hero {
+		margin-top: 100px;
 	}
 
-	
+	.overlay-text a {
+		font-size: 14px;
+	}
 }
 
 /* Responsiveness for standard ipad and smaller < 768px */
@@ -277,7 +276,7 @@ hr {
 @media (min-width: 576px) and (max-width: 768px) {
 	.overlay-text a {
 		font-size: 13px;
-		white-space:normal;
+		white-space: normal;
 	}
 
 	.project-title {
@@ -288,7 +287,6 @@ hr {
 		font-size: 14px;
 	}
 }
-
 
 /* Responsiveness for M - L screens */
 
