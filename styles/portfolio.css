@@ -62,9 +62,7 @@ a {
 }
 
 .logo {
-	position: relative;
-	left: 30px;
-	max-width: 80px;
+	
 }
 
 .content-container {
@@ -175,6 +173,10 @@ a {
 	background: var(--background-color) !important;
 }
 
+.navbar-brand {
+	margin: 0px !important;
+}
+
 .nav-link {
 	color: #825c41 !important;
 }
@@ -264,11 +266,13 @@ hr {
 
 	.lf-hero {
 		margin-top: 100px;
+		max-width: 110%;
 	}
 
-	.overlay-text a {
-		font-size: 14px;
-	}
+
+	
+
+	
 }
 
 /* Responsiveness for standard ipad and smaller < 768px */
@@ -276,7 +280,7 @@ hr {
 @media (min-width: 576px) and (max-width: 768px) {
 	.overlay-text a {
 		font-size: 13px;
-		white-space: normal;
+		
 	}
 
 	.project-title {
@@ -290,9 +294,11 @@ hr {
 
 /* Responsiveness for M - L screens */
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
 	.overlay-text a {
 		font-size: 16px;
-		white-space: normal;
+		
 	}
 }
+
+/* >992px overlay a 
