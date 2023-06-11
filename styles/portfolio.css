@@ -62,6 +62,7 @@ a {
 }
 
 .logo {
+	max-width: 85px;
 	
 }
 
@@ -122,6 +123,19 @@ a {
 	position: relative;
 }
 
+.left-rounded {
+	border-top-left-radius: 450px;
+}
+
+.right-rounded {
+	border-top-right-radius: 450px;
+}
+
+.about-img {
+	max-width: 500px;
+	
+}
+
 .image-container {
 	position: relative;
 	display: inline-block;
@@ -159,15 +173,8 @@ a {
 	font-size: 24px;
 }
 
-.right-rounded {
-	border-top-right-radius: 450px;
-	position: relative;
-}
 
-.left-rounded {
-	border-top-left-radius: 450px;
-	position: relative;
-}
+
 
 .navbar {
 	background: var(--background-color) !important;
@@ -181,10 +188,7 @@ a {
 	color: #825c41 !important;
 }
 
-.arch {
-	border-top-left-radius: 500px;
-	border-top-right-radius: 500px;
-}
+
 
 nav a:hover,
 nav a.active {
